@@ -37,3 +37,24 @@ int main()
 			cout<<"hasilnya\t:"<<hasil<<"\n\n";
 			break;
 		}
+case 2:
+			{ 
+			lingkaran(&ab);
+			hasil=pi*ab*cd;
+			cout<<"hasilnya\t:"<<hasil<<"\n\n";
+			break;
+		}
+		case 3:
+		{
+			return 0;
+			break;
+		}
+		default:
+			{
+			cout<<" ERROR \n\n";
+		}
+	}
+}
+while (c!='3');
+return 0;
+}
