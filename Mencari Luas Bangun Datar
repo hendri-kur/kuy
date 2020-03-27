@@ -17,7 +17,7 @@ cout <<" masukan panjang jari-jari :";
 cin>>a;
 *panjang=a;
 }
-nt main()
+int main()
 {
 	float ab,cd,hasil;
 	const float pi=3.14;
